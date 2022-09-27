@@ -44,7 +44,7 @@ submit.onclick = function(){
     }
 
     //count
-    if(title.value != ''&& price.value != ''){
+    if(title.value != ''&& price.value != ''&& newpro.count<=100){
         if(mood === 'create'){
             if(newpro.count>1){
                 for(let i=0;i<newpro.count;i++){
